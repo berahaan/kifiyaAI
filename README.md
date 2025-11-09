@@ -8,8 +8,8 @@ Follow these steps to reproduce the development environment:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/solar-challenge-week1.git
-   cd solar-challenge-week1
+  https://github.com/berahaan/solar-challenge-week0.git
+   cd solar-challenge-week0
    ```
 2. **Create and activate a virtual environment**
    ```bash
