@@ -34,18 +34,27 @@ Follow these steps to reproduce the development environment:
 ├── .github/
 │   └── workflows/
 │       └── ci.yml          # GitHub Actions workflow (installs deps + checks Python version)
+├── .vscode/
+│   └── settings.json       # Workspace defaults (venv + pytest target)
 ├── Assignment.txt          # Challenge brief (not part of submission)
 ├── data/                   # Raw and cleaned datasets (ignored by git)
+├── notebooks/
+│   ├── __init__.py
+│   └── README.md           # Guidance for notebooks you add per task
 ├── requirements.txt        # Base Python dependencies
+├── scripts/
+│   ├── __init__.py
+│   └── README.md           # Placeholder docs for automation scripts
 ├── src/                    # Placeholder for project source code
-├── notebook/               # Notebooks for EDA and experimentation
+├── tests/
+│   └── __init__.py
 └── venv/                   # Local virtual environment (ignored by git)
 ```
 
 As you proceed with later tasks:
 - Keep all CSVs inside `data/`.
 - Use feature branches like `eda-benin`, `compare-countries`, and `dashboard-dev`.
-- Add notebooks under `notebook/` and production code under `src/` or `app/`.
+- Add notebooks under `notebooks/` and production code under `src/` or `app/`.
 
 ## Git Workflow Checklist
 - Create branch `setup-task` and make at least three commits (`init: add .gitignore`, `chore: venv setup`, `ci: add GitHub Actions workflow`, etc.).

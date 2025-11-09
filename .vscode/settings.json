@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "venv/Scripts/python.exe",
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "notebook.defaultKernel": "Python 3"
+}
